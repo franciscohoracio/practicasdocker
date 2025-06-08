@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  app:
+    build: .
+    image: msapp:latest
+    ports:
+      - "8090:8080"
